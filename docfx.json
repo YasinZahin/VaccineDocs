@@ -51,7 +51,12 @@
       }
     ],
     "dest": "_site",
-    "globalMetadataFiles": [],
+    "globalMetadata": {
+      "_appLogoPath": "images/docsite/Logo.svg",
+      "_appFaviconPath": "images/docsite/Logo.svg",
+      "_appTitle": "Vaccine",
+      "_appFooter": "Copyright (c) VDTS"
+    },
     "fileMetadataFiles": [],
     "template": [
       "default"
