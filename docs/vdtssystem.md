@@ -35,12 +35,12 @@ Functional ضروريات دي.
 دا ډیاګرام د UML دیاګرامونو څخه يو مهم ډول دی. د Use Case ډیاګرام دنده ده چي د يوزر او سیسټم تر منځ متقابل عمل وښيي. يعني دا چي يو معلوم يوزر د سیسټم د کومو برخو څخه کار اخلي او سیسټم يې پر وړاندي څه ډول عکس العمل ښيي. په (4.1) شکل کي د VDTS سیسټم اړوند Use Case ډياګرام ښودل سوی دی په کوم کي چي دا ښودل کيږي چي زموږ د سیسټم سره څو ډوله یوزران سر او کار لري او سیسټم د هر يوه په مقابل کي کوم عکس العمل ښيي. د بېلګي په توګه په دې ډياګرام کي ښودل سوي دي چي زموږ په سیسټم کي مبلغ بايد لومړی login سي او تر هغه وروسته کولای سي چي کورنۍ او ماشومان ثبت کړي، ريبورټونه جوړ کړي او خبرتياوي وويني. ددې تر څنګ هر مبلغ ځانته پروفايل لري چي کولای سي ځيني تغيرات پکښي راولي. همدا شان هر سوپروايزر کولای سي چي ريبورټونه جوړ کړي، خبرتياوي ووين، د اپليکېشن د استعمال لپاره Log In سي او يا هم خپل پروفايل جوړ او تغيرات ورپکښي راولي. 
 
 په سیسټم کي موږ يو رول د هري کورنۍ د مشر لپاره لرو. دا کيدای سي د ماشوم مور، پلار او يا بل سرپرست وي. د کورنۍ مشر سیسټم ته په داخلېدلو سره کولای سي فقط د خپلو ماشومانو اړوند معلومات چي کومو دورو کي واکسين سوي او کومو کي نه دي واکسین سوي، وويني. ددې تر کولای سي چي د واکسين د راتلونکو دورو مهالوېش هم تعقيب کړي. تر څو په ناخبرۍ کي يې ماشومان د واکسين څخه پاته نه سي. يوه بله برخه چي د کورنۍ د مشر لپاره ورکول سوې ده، د پوليو او نورو واکسينونو اړوند د مفيدو معلوماتو صفحه ده. پدې صفحه کي د کورنيو مشرانو ته د واکسين د اهميت په باره کي د قناعت ورکولو هڅه سوې ده. دا برخه د واکسين د ورکړي په باره کي د کورنيو د عامه پوهاوي لامل ګرځي، کوم چي زموږ د دې پروژې يو له اساسي اهدافو څخه دی.
-![Use case diagram]() 
+![Use case diagram](https://github.com/VDTS/VaccineDocs/blob/main/images/usecasediagram.jpg) 
 
 ## Activity ډیاګرام 
 
 دا ډياګرام هم يو له مهمو ډياګرامونو څخه دی او موږ ته دا ښيي چي په سیسټم کي موجوده کړني Activities بايد په څه ډول ترسره سي او کومه کړنه د بلي يوې پر کار باندي تاثير اچولای سي. په لاندي (4.2) شکل کي ښودل کيږي چي ددې سیسټم ټول جريان د شروع د نقطې څخه تر اخيري پوري په څه ډول دی. د Use Case ډياګرام لو Activity diagram تر عمده توپیر دادی چي Use case موږ ته د سیسټم د ساختمان جوړښت ښيي، پداسي حال کي چي Activity ډياګرام د سیسټم په همدې ساختمان کي د کار تګلاره Work flow  واضح کوي. 
-![Activity Diagram]()
+![Activity Diagram](https://github.com/VDTS/VaccineDocs/blob/main/images/activitydiagram.jpg)
  
 
 ## Google Material 
@@ -52,15 +52,15 @@ Functional ضروريات دي.
 د سیسټم Architecture زموږ سره مرسته کوي چي د سیسټم په ټول جوړښت، اجزاوو او د دوی ترمنځ اړيکو باندي يه ممل ډول وپوهيږو. د VDTS پروژې د موبايل، ويب او ډيسکټاپ اړوند ټول سییسټم ډيراين او جوړښت په لاندي ډول واضح کوو. 
 
 Desktop App: د ډيسکټاپ برخه د Firebase auth, Firebase rtdb, Firebase Storage او Github Issues سره اړيکه لري. د Feedback موضوعات د Github issues پواسطه او realtime data د Firebase rtdb پواسطه اداره کيږي. په لاندي شکل کي ددوی ټولو ټر منځ اړيکه ښودل سوې ده. 
-![Desktop System Design]()
+![Desktop System Design](https://github.com/VDTS/VaccineDocs/blob/main/images/desktopsystemdesign.jpg)
  
 
 Mobile App: د موبايل برخه د Firebase auth, App Center, App Center depoloyment,  Firebase rtdb,  Firebase Storage او Github Issues سره اړيکه لري. د Feedback موضوعات د Github issues پواسطه او realtime data د Firebase rtdb پواسطه اداره کيږي. همداشان د App Center پواسطه موږ کولای سو د موبابل اپلیکېشن په داخل کي رامنځته سوی هر Crash په دقيق ډول پیدا او تر Development Team پوري يې رپورټ ورسوو. په لاندي شکل کي ددوی ټولو ټر منځ اړيکه ښودل سوې ده. 
-![Mobile System Design]()
+![Mobile System Design](https://github.com/VDTS/VaccineDocs/blob/main/images/mobilesystemdesign.jpg)
  
 
 Web App: د ويب برخه د Firebase auth, Firebase rtdbاو  Firebase Storage سره اړيکه لري. realtime data د Firebase rtdb پواسطه اداره کيږي او Firebase Auth بیا د يوزرانو د Sign In په برخه کي کار کوي. په لاندي شکل کي ددوی ټولو ټر منځ اړيکه ښودل سوې ده. 
-![Web System Design]()
+![Web System Design](https://github.com/VDTS/VaccineDocs/blob/main/images/webappsystemdesign.jpg)
  
 
 ## اجرأ کول (Implementation) 
@@ -74,19 +74,19 @@ Web App: د ويب برخه د Firebase auth, Firebase rtdbاو  Firebase Storag
 DevOps د Developers او Operation Teams تر منځ د کار د هماهنګۍ يوه نوې او موثره تګلاره ده چي د پروژې د اجرا او Testing په برخو کي د کار د اسانۍ او وخت د کنټرول لپاره په ښه ډول نتيجه ورکوي. DevOps د دې لامل کيږي چي د کار ډېره برخه په Automate شکل تر سره سي. او د سیسټم يوزران په دوامداره شکل اپډيټ ترلاسه کړي. د VDTS د پروژې د اجرا لپاره د MobileApp, Desktop او WebApp لپاره د DevOps پروسه په لاندي ډول ده: 
 
 WebApp: د ويب په برخه کي کوډ د Development وروسته د Benchmarking مرحلې ته داخليږي، چيري چي د کوډ Performance ارزيابي کيږي او د ضعف نقطې کتل کيږي. کله چي کوډ تر دغه مرحلې په کاميابۍ ووځي وروسته د Unit Testing پروسه شروع کيږي پدې مرحله کي ډاډ تر لاسه کيږي چي په پروژه کي دغه نوی تغير د پروژې پر پاته برخه (هغه چي مخکي جوړه سوې ده) منفي تاثير نه کوي. که چيري په دې برخه کي هم کوم مشکل نه وو نو وروسته کوډ دپروژې اصلي کوډ ته Push کيږي. په لاندي شکل کي د WebApp اړوند د DevOps مرحله واضح سوې ده. 
-![Web DevOps]()
+![Web App DevOps](https://github.com/VDTS/VaccineDocs/blob/main/images/webappdevops.jpg)
  
 
 MobileApp: د موبايل په برخه کي کوډ د Development وروسته د Benchmarking مرحلې ته داخليږي، چيري چي د کوډ Performance ارزيابي کيږي او د ضعف نقطې کتل کيږي. کله چي کوډ تر دغه مرحلې په کاميابۍ ووځي وروسته د Unit Testing پروسه شروع کيږي پدې مرحله کي ډاډ تر لاسه کيږي چي په پروژه کي دغه نوی تغير د پروژې پر پاته برخه (هغه چي مخکي جوړه سوې ده) منفي تاثير نه کوي. که چيري په دې برخه کي هم کوم مشکل نه وو کوډ د پروژې سره یو ځای د App Center له لاري د Quality Assurance Team سره شريکيږي.هغوی کولای سي چي اپليکیشن په خپلو موبايلو کي انسټال کړي، ټول خصوصيات يې چيک کړي او بيرته د هماغه اپليکيشن له لاري Feedback ورکوي تر څو د راتلونکو اپډيټونو په پلان کي شامل سي. البته که چيري د QA Team د استعمال په وخت کي د موبايل اپلیکېشن په يوه برخه کي Crash رامنځته سي، په اتومات شکل د Development د ټیم سره شریکيږي. په لاندي شکل کي د MobileApp د DevOps برخه واضح سوې ده. 
-![Mobile App DevOps]()
+![Mobile App DevOps](https://github.com/VDTS/VaccineDocs/blob/main/images/mobiledevops.jpg)
  
 
 DesktopApp: د ډيسکټاپ په برخه کي کوډ د Development وروسته د Benchmarking مرحلې ته داخليږي، چيري چي د کوډ Performance ارزيابي کيږي او د ضعف نقطې کتل کيږي. کله چي کوډ تر دغه مرحلې په کاميابۍ ووځي وروسته د Unit Testing پروسه شروع کيږي پدې مرحله کي ډاډ تر لاسه کيږي چي په پروژه کي دغه نوی تغير د پروژې پر پاته برخه (هغه چي مخکي جوړه سوې ده) منفي تاثير نه کوي. که چيري په دې برخه کي هم کوم مشکل نه وو نو وروسته کوډ دپروژې اصلي کوډ ته Push کيږي. په لاندي شکل کي د Desktop App اړوند د DevOps مرحله واضح سوې ده. 
-![Desktop DevOps]()
+![Desktop DevOps](https://github.com/VDTS/VaccineDocs/blob/main/images/desktopdevops.jpg)
  
 
 ### نوټ: Benchmarking  
-![Benchmarking Example]()
+![Benchmarking Example](https://github.com/VDTS/VaccineDocs/blob/main/images/benchmarking%20example.jpg)
 
 ## کارېدونکي ټکنالوجیاني او توکي 
 
